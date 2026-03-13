@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://workwithjilani.com
+
+# Sitemaps
+Sitemap: https://workwithjilani.com/sitemap.xml
