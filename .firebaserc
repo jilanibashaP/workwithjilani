@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "workwithjilani"
-  }
+    "default": "workwithjilani",
+    "jilani": "jilani-portfolio"
+  },
+  "targets": {},
+  "etags": {}
 }

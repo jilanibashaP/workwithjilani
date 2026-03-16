@@ -8,31 +8,31 @@ const skillCategories = [
     title: 'Backend',
     icon: FiServer,
     color: 'from-blue-500 to-cyan-500',
-    skills: ['Java', 'Spring Boot', 'Spring Security', 'Hibernate ORM', 'JPA', 'Node.js', 'Express.js', 'NestJS', 'Python'],
+    skills: ['Node.js', 'Express.js', 'Java', 'Spring Boot', 'Hibernate', 'JPA', 'REST APIs', 'WebSockets', 'Webhooks', 'Microservices'],
   },
   {
     title: 'Frontend',
     icon: FiLayout,
     color: 'from-purple-500 to-pink-500',
-    skills: ['React.js', 'JavaScript', 'TypeScript', 'HTML', 'CSS', 'Bootstrap'],
+    skills: ['React.js', 'JavaScript', 'TypeScript', 'HTML', 'CSS'],
   },
   {
     title: 'Databases',
     icon: FiDatabase,
     color: 'from-green-500 to-emerald-500',
-    skills: ['PostgreSQL', 'MongoDB', 'DynamoDB', 'SQL', 'Weaviate Vector DB'],
+    skills: ['PostgreSQL', 'MongoDB', 'Weaviate (VectorDB)', 'DynamoDB', 'SequelizeORM', 'PrismaORM'],
   },
   {
     title: 'Cloud & DevOps',
     icon: FiCloud,
     color: 'from-orange-500 to-yellow-500',
-    skills: ['AWS EC2', 'S3', 'Lambda', 'CloudWatch', 'CI/CD', 'Docker'],
+    skills: ['AWS (EC2, S3, Lambda)', 'Docker', 'CI/CD'],
   },
   {
     title: 'Messaging',
     icon: FiMessageSquare,
     color: 'from-red-500 to-rose-500',
-    skills: ['Kafka', 'Redis'],
+    skills: ['Redis', 'Kafka', 'RabbitMQ'],
   },
   {
     title: 'AI & ML',
@@ -44,7 +44,7 @@ const skillCategories = [
     title: 'Tools',
     icon: FiTool,
     color: 'from-teal-500 to-cyan-500',
-    skills: ['Git', 'GitHub', 'Bitbucket', 'Nginx', 'Swagger', 'OpenAPI'],
+    skills: ['Git', 'GitHub', 'Jest', 'Postman', 'Swagger/OpenAPI', 'Jira'],
   },
 ]
 

@@ -62,12 +62,19 @@ const Hero = () => {
 
         {/* Tagline */}
         <p 
-          className="text-lg sm:text-xl md:text-2xl text-gray-400 mb-12 max-w-2xl mx-auto"
+          className="text-lg sm:text-xl md:text-2xl text-gray-400 mb-4 max-w-3xl mx-auto"
           data-aos="fade-up"
           data-aos-delay="300"
         >
           "I turn ideas into{' '}
           <span className="text-white">scalable web applications</span>."
+        </p>
+        <p
+          className="text-base sm:text-lg text-accent-cyan/80 mb-12 max-w-2xl mx-auto font-medium"
+          data-aos="fade-up"
+          data-aos-delay="350"
+        >
+          I build Websites &amp; Mobile Apps that scale — from idea to launch.
         </p>
 
         {/* CTA Buttons */}
@@ -94,19 +101,7 @@ const Hero = () => {
           </a>
         </div>
 
-        {/* Scroll Indicator */}
-        <div 
-          className="absolute bottom-10 left-1/2 transform -translate-x-1/2"
-          data-aos="fade-up"
-          data-aos-delay="600"
-        >
-          <div className="flex flex-col items-center gap-2">
-            <span className="text-sm text-gray-500">Scroll to explore</span>
-            <div className="w-6 h-10 border-2 border-gray-600 rounded-full flex justify-center pt-2">
-              <div className="w-1.5 h-3 bg-accent-cyan rounded-full animate-bounce" />
-            </div>
-          </div>
-        </div>
+
       </div>
     </section>
   )

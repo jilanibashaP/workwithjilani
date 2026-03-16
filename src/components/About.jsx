@@ -61,14 +61,12 @@ const About = () => {
             
             <div className="space-y-4 text-gray-300 leading-relaxed">
               <p>
-                I'm a <span className="text-white font-semibold">Full Stack Developer</span> with 
-                <span className="text-accent-cyan"> 5+ years of experience</span> building scalable 
-                microservices and enterprise applications.
+                I'm a <span className="text-white font-semibold">Full Stack Software Engineer</span> with 
+                <span className="text-accent-cyan"> 5+ years of experience</span> building production-grade 
+                MERN stack applications, distributed backend systems, and real-time platforms.
               </p>
               <p>
-                My expertise spans across <span className="text-white">Java, Spring Boot, Node.js, 
-                React.js, AWS, and AI/RAG systems</span>. I love tackling complex problems and 
-                transforming ideas into elegant, efficient solutions.
+                Proven expertise across the full delivery lifecycle — from REST API design and database modeling to React frontend, cloud infrastructure (AWS, Azure), and async messaging (RabbitMQ, Redis).
               </p>
               <p>
                 I'm a qualified <span className="text-accent-cyan">GATE 2021 & 2022</span> candidate, 
