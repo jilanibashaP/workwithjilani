@@ -50,10 +50,10 @@ const Services = () => {
             What I Do
           </span>
           <h2 className="text-4xl sm:text-5xl font-heading font-bold text-white mb-4">
-            My <span className="gradient-text">Services</span>
+            Freelance <span className="gradient-text">Services</span>
           </h2>
           <p className="text-gray-400 text-lg max-w-xl mx-auto">
-            End-to-end development for web, mobile, and backend — built to scale, designed to impress.
+            End-to-end freelance development for web, mobile, and backend — built to scale, designed to impress.
           </p>
         </div>
 

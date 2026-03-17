@@ -61,9 +61,9 @@ const About = () => {
             
             <div className="space-y-4 text-gray-300 leading-relaxed">
               <p>
-                I'm a <span className="text-white font-semibold">Full Stack Software Engineer</span> with 
+                I'm a <span className="text-white font-semibold">Freelance Full Stack Developer</span> with 
                 <span className="text-accent-cyan"> 5+ years of experience</span> building production-grade 
-                MERN stack applications, distributed backend systems, and real-time platforms.
+                web applications, mobile apps, APIs, and distributed backend systems.
               </p>
               <p>
                 Proven expertise across the full delivery lifecycle — from REST API design and database modeling to React frontend, cloud infrastructure (AWS, Azure), and async messaging (RabbitMQ, Redis).

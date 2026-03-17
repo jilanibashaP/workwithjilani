@@ -55,11 +55,11 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <a href="#home" className="inline-block mb-4">
-              <span className="text-3xl font-heading font-bold gradient-text">JB</span>
+              <span className="text-3xl font-heading font-bold gradient-text">Work With Jilani</span>
             </a>
             <p className="text-gray-400 text-sm leading-relaxed mb-4">
-              Full Stack Developer passionate about building scalable web applications 
-              and turning ideas into reality.
+              Freelance Full Stack Developer available for hire. I build scalable web applications,
+              mobile apps & APIs — turning your ideas into reality.
             </p>
             {/* Social Links */}
             <div className="flex items-center gap-4">
@@ -123,7 +123,7 @@ const Footer = () => {
         <div className="max-w-6xl mx-auto px-4 py-6">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="text-gray-500 text-sm text-center md:text-left">
-              © {currentYear} Jilani Basha · <a href="https://workwithjilani.com" className="hover:text-accent-cyan transition-colors">workwithjilani.com</a>
+              © {currentYear} Jilani Basha · Freelance Developer · <a href="https://workwithjilani.com" className="hover:text-accent-cyan transition-colors">workwithjilani.com</a>
             </p>
             <p className="text-gray-500 text-sm flex items-center gap-1">
               Made with <FiHeart className="w-4 h-4 text-red-500" /> in Hyderabad

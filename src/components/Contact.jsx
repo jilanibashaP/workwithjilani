@@ -60,7 +60,7 @@ const Contact = () => {
             Get In <span className="gradient-text">Touch</span>
           </h2>
           <p className="section-subtitle" data-aos="fade-up" data-aos-delay="100">
-            Have a project in mind? Let's work together!
+            Have a project in mind? Hire me as your freelance developer!
           </p>
         </div>
 

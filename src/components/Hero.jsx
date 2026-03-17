@@ -25,7 +25,7 @@ const Hero = () => {
           data-aos="fade-down"
         >
           <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse" />
-          <span className="text-sm text-gray-400">Available for opportunities</span>
+          <span className="text-sm text-gray-400">Available for freelance projects</span>
         </div>
 
         {/* Name */}
@@ -45,7 +45,7 @@ const Hero = () => {
           data-aos-delay="200"
         >
           <span className="text-xl sm:text-2xl md:text-3xl font-heading text-white">
-            Full Stack Developer
+            Freelance Full Stack Developer
           </span>
           <span className="hidden sm:block text-gray-600">|</span>
           <div className="flex flex-wrap items-center justify-center gap-2">
@@ -66,15 +66,15 @@ const Hero = () => {
           data-aos="fade-up"
           data-aos-delay="300"
         >
-          "I turn ideas into{' '}
-          <span className="text-white">scalable web applications</span>."
+          Transforming Ideas into Reality —{' '}
+          <span className="text-white">Hire me to build your next project</span>.
         </p>
         <p
           className="text-base sm:text-lg text-accent-cyan/80 mb-12 max-w-2xl mx-auto font-medium"
           data-aos="fade-up"
           data-aos-delay="350"
         >
-          I build Websites &amp; Mobile Apps that scale — from idea to launch.
+          Freelance Developer — I build Websites, Mobile Apps & APIs from idea to launch.
         </p>
 
         {/* CTA Buttons */}
@@ -100,6 +100,13 @@ const Hero = () => {
             View My Work
           </a>
         </div>
+
+        {/* SEO hidden text for search engines */}
+        <p className="sr-only">
+          Work With Jilani — Freelance Full Stack Developer for hire. Specializing in website development, 
+          mobile app development, API development, Java, Spring Boot, React.js, Node.js, AWS. 
+          Hire a freelancer for your next project. Based in Hyderabad, India. Available worldwide.
+        </p>
 
 
       </div>

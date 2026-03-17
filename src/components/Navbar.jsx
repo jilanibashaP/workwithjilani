@@ -66,7 +66,7 @@ const Navbar = () => {
               JB
             </span>
             <span className="hidden sm:block text-lg font-medium text-white group-hover:text-accent-cyan transition-colors">
-              Jilani Basha
+              Work With Jilani
             </span>
           </a>
 
