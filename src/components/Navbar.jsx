@@ -53,6 +53,7 @@ const Navbar = () => {
           ? 'bg-primary-dark/90 backdrop-blur-lg shadow-lg shadow-black/20' 
           : 'bg-transparent'
       }`}
+      aria-label="Main navigation"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
@@ -61,8 +62,9 @@ const Navbar = () => {
             href="#home" 
             onClick={(e) => handleNavClick(e, '#home')}
             className="flex items-center space-x-2 group"
+            aria-label="Jilani Basha — Home"
           >
-            <span className="text-2xl font-heading font-bold gradient-text">
+            <span className="text-2xl font-heading font-bold gradient-text" aria-hidden="true">
               JB
             </span>
             <span className="hidden sm:block text-lg font-medium text-white group-hover:text-accent-cyan transition-colors">

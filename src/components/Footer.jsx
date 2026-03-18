@@ -54,12 +54,12 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-8">
           {/* Brand */}
           <div>
-            <a href="#home" className="inline-block mb-4">
-              <span className="text-3xl font-heading font-bold gradient-text">Work With Jilani</span>
+            <a href="#home" className="inline-block mb-4" aria-label="Jilani Basha — Home">
+              <span className="text-3xl font-heading font-bold gradient-text">Jilani Basha</span>
             </a>
             <p className="text-gray-400 text-sm leading-relaxed mb-4">
               Freelance Full Stack Developer available for hire. I build scalable web applications,
-              mobile apps & APIs — turning your ideas into reality.
+              mobile apps and APIs — turning your ideas into reality.
             </p>
             {/* Social Links */}
             <div className="flex items-center gap-4">
@@ -123,7 +123,7 @@ const Footer = () => {
         <div className="max-w-6xl mx-auto px-4 py-6">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="text-gray-500 text-sm text-center md:text-left">
-              © {currentYear} Jilani Basha · Freelance Developer · <a href="https://workwithjilani.com" className="hover:text-accent-cyan transition-colors">workwithjilani.com</a>
+              © {currentYear} Jilani Basha · Freelance Full Stack Developer
             </p>
             <p className="text-gray-500 text-sm flex items-center gap-1">
               Made with <FiHeart className="w-4 h-4 text-red-500" /> in Hyderabad

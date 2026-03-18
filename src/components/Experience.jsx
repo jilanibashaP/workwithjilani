@@ -3,7 +3,7 @@ import { FiBriefcase, FiCalendar, FiMapPin } from 'react-icons/fi'
 const experiences = [
   {
     title: 'Software Engineer II',
-    company: 'Graviti Pharmaceuticals',
+    company: 'Yashoda Hospitals',
     location: 'Hyderabad, India',
     period: 'Dec 2024 – Present',
     type: 'Full-time',

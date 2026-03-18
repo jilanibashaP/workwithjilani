@@ -37,6 +37,7 @@ const Hero = () => {
           Hi, I'm{' '}
           <span className="gradient-text">Jilani Basha</span>
         </h1>
+        <p className="sr-only">Freelance Full Stack Developer specializing in Java, Spring Boot, React.js, Node.js and AWS. Available for hire worldwide.</p>
 
         {/* Title */}
         <div 

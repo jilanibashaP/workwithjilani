@@ -27,7 +27,7 @@ function App() {
     <div className="min-h-screen bg-primary-dark text-white relative">
       <ParticlesBackground />
       <Navbar />
-      <main>
+      <main role="main">
         <Hero />
         <About />
         <Skills />
