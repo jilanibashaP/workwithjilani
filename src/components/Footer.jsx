@@ -1,4 +1,4 @@
-import { FiGithub, FiLinkedin, FiMail, FiHeart, FiCode } from 'react-icons/fi'
+import { FiGithub, FiLinkedin, FiMail, FiCode } from 'react-icons/fi'
 
 const socialLinks = [
   {
@@ -121,12 +121,9 @@ const Footer = () => {
       {/* Bottom Bar */}
       <div className="border-t border-white/5">
         <div className="max-w-6xl mx-auto px-4 py-6">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-            <p className="text-gray-500 text-sm text-center md:text-left">
+          <div className="flex items-center justify-center">
+            <p className="text-gray-500 text-sm text-center">
               © {currentYear} Jilani Basha · Freelance Full Stack Developer
-            </p>
-            <p className="text-gray-500 text-sm flex items-center gap-1">
-              Made with <FiHeart className="w-4 h-4 text-red-500" /> in Hyderabad
             </p>
           </div>
         </div>

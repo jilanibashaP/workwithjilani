@@ -34,9 +34,12 @@ const About = () => {
               {/* Profile Card */}
               <div className="relative bg-gradient-to-br from-primary-light to-primary-dark p-8 rounded-3xl border border-white/10 shadow-2xl">
                 <div className="w-48 h-48 mx-auto mb-6 rounded-full bg-gradient-to-br from-accent-blue to-accent-cyan p-1">
-                  <div className="w-full h-full rounded-full bg-primary-dark flex items-center justify-center">
-                    <span className="text-6xl font-heading font-bold gradient-text">JB</span>
-                  </div>
+                  <img 
+                    src="/profile.jpg" 
+                    alt="Jilani Basha — Freelance Full Stack Developer" 
+                    className="w-full h-full rounded-full object-cover"
+                    loading="lazy"
+                  />
                 </div>
                 
                 <div className="text-center">
